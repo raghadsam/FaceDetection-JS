@@ -1,4 +1,5 @@
-{"homepage":"https://raghadsam.github.io/FaceDetection-JS/",
+{
+  "homepage": "https://raghadsam.github.io/FaceDetection-JS",
   "name": "face-recognition",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +24,10 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [
